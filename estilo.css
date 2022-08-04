@@ -1,0 +1,308 @@
+/* Aqui está o meu background do body*/
+body {
+    background-color: black;
+}
+
+/*Aqui está o meu nav-bar*/
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.logoMA {
+    margin-left: 140px;
+
+}
+
+.cor-nav {
+    background-color: black;
+
+}
+
+.separa {
+    padding: 20px;
+
+
+}
+
+
+.fontnav {
+    font-size: 24px;
+    font-family: "Roboto";
+    font-weight: 200;
+    color: white;
+    text-decoration: none;
+    margin-left: 50px;
+}
+
+
+/*Aqui está meu primeiro main*/
+
+.meu-perfil {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 230px;
+}
+
+
+.informações {
+    margin-top: -120px;
+}
+
+#nomes {
+    display: flex;
+    gap: 25px;
+    margin-top: 20px;
+    margin-left: -70px;
+}
+
+h1 {
+    font-family: "Aleo";
+    font-size: 64px;
+    color: white;
+    margin-top: 200px;
+
+
+}
+
+h2 {
+    font-family: "Aleo";
+    font-size: 64px;
+    color: white;
+    margin-top: 200px;
+
+}
+
+h3 {
+    font-family: Alex Brush;
+    font-size: 48px;
+    color: white;
+    margin-top: 30px;
+    margin-left: 10px;
+
+
+}
+
+.profissao {
+    display: flex;
+    justify-content: center;
+
+}
+
+.logo {
+    margin-top: 1px;
+}
+
+/*Aqui está meu segundo Main (Sobre mim)*/
+
+.RetanguloSobreMim {
+    background-color: rgba(153, 11, 20, 1);
+    height: 350px;
+
+}
+
+.SobreMim {
+    font-family: "Roboto";
+    font-size: 40px;
+    color: rgb(0, 0, 0);
+    padding-top: 20px;
+    margin-left: 10px;
+}
+
+.TextoSobreMim {
+    font-family: "Bree Serif";
+    font-size: 22px;
+    color: black;
+    padding-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+
+/*Aqui está meu terceiro Main (Informações)*/
+
+.Informações {
+    font-family: "Roboto";
+    font-size: 40px;
+    color: white;
+    margin-top: 150px;
+    margin-left: 10px;
+}
+
+.RetanguloInformações {
+    background-color: white;
+    height: 270px;
+    margin-top: 40px;
+}
+
+
+.TextoInformações {
+    font-family: "Bree Serif";
+    font-size: 22px;
+    color: black;
+    padding-top: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+
+
+/*Aqui está meu quarto Main*/
+#projetos {
+    margin-top: 100px;
+}
+
+.Criações {
+    font-family: "Roboto";
+    font-size: 40px;
+    color: white;
+    margin-left: 10px;
+}
+
+.Legenda {
+    color: rgba(255, 255, 255, 0.813);
+}
+
+
+/*Criação 1*/
+.Respirar-bar {
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    margin-top: 10px;
+
+}
+
+.Criação1 {
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: end;
+    margin-left: 50px;
+    margin-right: 10px;
+}
+
+.Leg-respirar {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+/*Criação 2*/
+.Quebrando-bar {
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    margin-top: 50px;
+}
+
+.Leg-quebrando {
+    margin-left: 50px;
+    margin-right: 15px;
+}
+
+.Criação2 {
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    margin-left: 10px;
+
+}
+
+/*Criação 3*/
+.Mexeu-bar {
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    margin-top: 20px;
+
+}
+
+.Criação3 {
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    margin-left: 50px;
+    margin-right: 10px;
+}
+
+.Leg-mexeu {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+footer {
+    background-color: rgba(153, 11, 20, 1);
+    margin-top: 170px;
+    color: white;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    padding: 6px;
+    color: white
+}
+
+.nav-item {
+    word-spacing: 10px;
+    font-size: 16px;
+    color: white;
+}
+
+.contate-me {
+    display: flex;
+    justify-content: center;
+    padding: 6px;
+    letter-spacing: 2px;
+
+}
+
+.logo-rodape {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 6px 40%;
+}
+
+.barra-link {
+    display: flex;
+    justify-content: start;
+    padding: 10px;
+}
+
+.footer-texto {
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    color: slategrey;
+    letter-spacing: 1px;
+    align-items: center;
+    margin-right: 24px;
+    padding: 2px 8px;
+}
+
+.footer-texto {
+    text-decoration: none;
+    cursor: pointer;
+    list-style: none;
+    transition: all 0.3s ease 0s;
+}
+
+.footer-texto:hover {
+    color: white
+}
+
+.logo-item {
+    cursor: pointer;
+}
+
+.direitos {
+    display: flex;
+    justify-content: center;
+    padding: 8px;
+    font-size: 14px;
+}
